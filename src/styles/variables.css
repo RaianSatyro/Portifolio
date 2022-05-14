@@ -1,6 +1,11 @@
 :root{
     --navColor: #000000;
     --curiculoButtonColor: #FF6464;
-    --textButtonColor: #FFFFFF;
+    --textButtonColor: #ffffff;
+    --backGroundSection: rgb(227, 252, 237);
+    --spanDarkColor: #21243D;
+    --linkColor: #00A8CC;
+
+
 
 }

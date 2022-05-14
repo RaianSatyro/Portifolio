@@ -1,0 +1,99 @@
+section::before{
+    content: "";
+    width: 98.9vw;
+    height: 39.6rem;
+    background-color: var(--backGroundSection);
+    display: block;
+
+    position: absolute;
+    z-index: -1;
+}
+
+section{
+    display: block;
+    width: 98.9vw;
+    height: 396px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho span {
+    font-family: 'Heebo';
+    color: var(--spanDarkColor);
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.cabecalho a span{
+    color: var(--linkColor);
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.cabecalho a{
+    text-decoration: none;
+
+}
+
+/* -------------------- CAIXAS --------------------*/
+
+.caixas {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo{
+    width: 418px;
+    height: 295px;
+    margin-right: 2rem;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+    
+}
+
+.conteudo h2 {
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 26px;
+    color: #21243D;
+
+    margin-top: 2.4rem;
+    margin-left: 2.3rem;
+    margin-right: 2.1rem;
+
+    width: 374px;
+    height: 85px;
+
+}
+
+.conteudo span{
+    font-weight: 400;
+    font-size: 18px;
+
+    margin-top: 2.4rem;
+    margin-left: 2.3rem;
+    margin-right: 2.1rem;
+
+    width: 374px;
+    height: 34px;
+
+
+}
+
+.conteudo img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.conteudo p {
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-top: 2.4rem;
+    margin-left: 2.3rem;
+    margin-right: 2.1rem;
+}
