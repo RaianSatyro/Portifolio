@@ -1,60 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--CSS imports-->
-    <link rel="stylesheet" href="src/styles/main.css">
-    <link rel="stylesheet" href="src/styles/nav.css">
-    <link rel="stylesheet" href="src/styles/resets.css">
-    <link rel="stylesheet" href="src/styles/variables.css">
-    <link rel="stylesheet" href="src/styles/section1.css">
+    <!-------Importando fonts--------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+
+    <!-----------CSS IMPORTS mobile---------->
+    <link rel="stylesheet" href="src/styles/styleMobile/resets.css">
+    <link rel="stylesheet" href="src/styles/styleMobile/menu.css">
+    <link rel="stylesheet" href="src/styles/styleMobile/variaveis.css">
+    <link rel="stylesheet" href="src/styles/styleMobile/section1.css">
+    <link rel="stylesheet" href="src/styles/styleMobile/section2.css">
+    <link rel="stylesheet" href="src/styles/styleMobile/section3.css">
+    <link rel="stylesheet" href="src/styles/styleMobile/footer.css">
 
     <title>Raian Satyro</title>
 </head>
 <body>
-    <nav class="navegation">
-        <a href="#">Trabalhos</a>
-        <a href="#">Blog</a>
-        <a href="#">Contato</a>
-    </nav>
-    <header>
-        <div class="container">
-            <h1 class="titulo">Oi, Eu sou Raian,<br>
-            Dev front-end</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur obcaecati voluptate omnis autem quae excepturi repudiandae doloremque inventore laudantium, unde natus est cumque! Deserunt doloribus, distinctio enim fugiat maxime culpa!</p>
-
-           <a href="#"><button class="curriculo">Download Curriculo</button></a>
-
-        </div>
-        <div class= "myPhoto">
-            <img  src="src/assets/WhatsApp Image 2022-03-30 at 15.57.09.jpeg" alt="">
-        </div>
-    </header> 
-
-    <section class="feature">
-        <div class="cabecalho">
-            <span>Posts recentes</span>
-            <a href=""><span>View all</span></a>
-        </div>
-        <div class="caixas">
-            <div class="conteudo">
-                <h2 class="titulo-conteudo">Criando tamagotchi</h2>
-                <span>07 Jan 2022  |  Python </span>
-                <img src="src/assets/python_104451.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, excepturi. Quisquam aspernatur tempore rem consectetur quis nesciunt laboriosam blanditiis deserunt cum maxime quam quaerat, dolorem voluptates ut ipsam odio provident.</p>
-            </div>
-
-            <div class="conteudo">
-                <h2 class="titulo-conteud2">Aprendendo Usar ReactJS</h2>
-                <span>10 Mai 2022 |  JavaScript, ReactJS</span>
-                <img src="src/assets/react_original_logo_icon_146374.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur natus esse vero modi maiores officiis! Beatae cumque laudantium nesciunt saepe amet autem repellat itaque, rem voluptates ipsa. Odit, nemo distinctio.</p>
-            </div>
-        </div>
-    </section>
     
+    <header>
+        <nav>
+            <div class="menu">Menu</div>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/">Sobre</a></li>
+                <li><a href="/">Projetos</a></li>
+                <li><a href="/">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sessao1">
+
+            <div class="container">
+                <div class="photo-perfil">
+                    <img src="src/assets/WhatsApp Image 2022-03-30 at 15.57.09.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="apresentacao">
+                <h1> Oi, Eu sou Raian, <br> estudante de engenharia de software <br> e dev font-end. </h1>
+            </div>
+
+            <div class="sobre">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minima dolorem, distinctio, molestias non recusandae voluptates incidunt.</p>
+                </div>
+            </div>
+
+            <div class="button">
+                <a href="" class="download">
+                    <button>Download Curriculo</button>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="sessao2">
+
+            <div>
+                <h2 class="post-recent">Conquistas recentes</h2>
+            </div>
+
+            <div class="box-info-post">
+                <div class="titulo-info-box">
+                    <h3>Criando paginas com bootstrap</h3>
+                </div>
+
+                <div class="data-info">
+                    <p>12 fab 2020</p>
+                    <p>|</p>
+                    <img src="src/assets/icons8-bootstrap-144.png" alt="">
+                    <img src="src/assets/icons8-css3-144.png" alt="">
+                    <img src="src/assets/icons8-html-5-144.png" alt="">
+                </div>
+
+                <div class="descricao">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quo soluta labore a asperiores corrupti suscipit quis pariatur esse delectus deleniti, expedita iste animi minus officiis minima nulla dolorum voluptates.</p>
+                </div>
+
+            </div>    
+
+            <div class="box-info-post">
+                <div class="titulo-info-box">
+                    <h3>Recriando interface netflix</h3>
+                </div>
+
+                <div class="data-info">
+                    <p>12 fab 2020</p>
+                    <p>|</p>
+                    <img src="src/assets/icons8-bootstrap-144.png" alt="">
+                    <img src="src/assets/icons8-css3-144.png" alt="">
+                    <img src="src/assets/icons8-html-5-144.png" alt="">
+                </div>
+
+                <div class="descricao">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quo soluta labore a asperiores corrupti suscipit quis pariatur esse delectus deleniti, expedita iste animi minus officiis minima nulla dolorum voluptates.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sessao3">
+            <div>
+                <h2 class="titulos-trabalhos-realizados">
+                    Trabalhos em destaque
+                </h2>
+            </div>
+
+            <div class="trabalhos-realizados">
+                <div class="trabalho">
+                    <img src="src/assets/img_site_pokedex.png" alt="">
+
+                    <div class="titulo-trabalho">
+                        <h3>Pokedex</h3>
+                    </div>
+
+                    <div class="data-and-tec">
+                        <div class="data">
+                            <span>2022</span>
+                        </div>
+                        <div class="tech">
+                            <img src="src/assets/icons8-html-5-144.png" alt="">
+                            <img src="src/assets/icons8-css3-144.png" alt="">
+                            <img src="src/assets/icons8-javascript-144.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="descricao-trabalho">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi placeat quibusdam dolorum doloribus fugit, nulla accusamus perferendis accusantium voluptatum! Ipsam impedit consectetur recusandae consequuntur et hic accusamus cumque a reprehenderit.</p>
+                    </div>    
+
+                </div>
+
+
+                <div class="trabalho2" id="div1">
+                    <img src="src/assets/app_escolhe_lanche.png" alt="">
+
+                    <div class="titulo-trabalho">
+                        <h3>Pokedex</h3>
+                    </div>
+
+                    <div class="data-and-tec">
+                        <div class="data">
+                            <span>2022</span>
+                        </div>
+                        <div class="tech">
+                            <img src="src/assets/icons8-html-5-144.png" alt="">
+                            <img src="src/assets/icons8-css3-144.png" alt="">
+                            <img src="src/assets/icons8-javascript-144.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="descricao-trabalho">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi placeat quibusdam dolorum doloribus fugit, nulla accusamus perferendis accusantium voluptatum! Ipsam impedit consectetur recusandae consequuntur et hic accusamus cumque a reprehenderit.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="trabalho3" id="div2">
+                    <img src="src/assets/app_escolhe_lanche.png" alt="">
+
+                    <div class="titulo-trabalho">
+                        <h3>Pokedex</h3>
+                    </div>
+
+                    <div class="data-and-tec">
+                        <div class="data">
+                            <span>2022</span>
+                        </div>
+                        <div class="tech">
+                            <img src="src/assets/icons8-html-5-144.png" alt="">
+                            <img src="src/assets/icons8-css3-144.png" alt="">
+                            <img src="src/assets/icons8-javascript-144.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="descricao-trabalho">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi placeat quibusdam dolorum doloribus fugit, nulla accusamus perferendis accusantium voluptatum! Ipsam impedit consectetur recusandae consequuntur et hic accusamus cumque a reprehenderit.</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes-sociais">
+            <a href="https://github.com/RaianSatyro"><img src="src/assets/redesSociais/github.svg" alt=""></a>
+            <a href="https://www.instagram.com/raiiansatyro/saved/"><img src="src/assets/redesSociais/instagram.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/raian-satyro-a8353a122/"><img src="src/assets/redesSociais/linkedin.svg" alt=""></a>
+            <a href="https://twitter.com/raiansatyro"><img src="src/assets/redesSociais/twitter.svg" alt=""></a>
+        </div>
+    </footer>
+<script src="src/js/menu.js"></script>
 </body>
 </html>

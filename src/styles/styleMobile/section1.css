@@ -1,0 +1,70 @@
+.sessao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 37.5rem;
+    background-color: var(--primaryColor);
+
+
+}
+
+.photo-perfil{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3.3rem;
+    width: 174.38px;
+    height: 180px;
+}
+
+.photo-perfil img {
+    width: 17.438rem;
+    border-radius: 50%;
+}
+
+.apresentacao{
+    color: var(--branco);
+    width: 312px;
+    height: 120px;  
+
+    margin-top: 3.4rem;
+
+}
+
+.apresentacao h1 {
+    text-align: center;
+    font-weight: 550;
+    font-size: 2.2rem ;
+
+}
+
+.sobre{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    margin-top: 2.1rem;
+}
+
+.sobre div {
+    width: 328px;
+    height: 96px;
+    color: var(--branco);
+}
+
+button {
+    margin-top: 2.7rem;
+    width: 20.8rem;
+    height: 4.7rem;
+
+    background-color: var(--secumdaryColor);
+
+    border: none;
+    border-radius: 0.2rem;
+    
+    color: var(--branco);
+    font-size: 2rem;
+    font-weight: 500;
+
+    margin-bottom: 5.8rem;
+}
