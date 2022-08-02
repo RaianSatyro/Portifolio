@@ -2,8 +2,6 @@
 
 ##Utilizando as linguagens puras de desenvolvimento web, estou criando essa pagina portfólio para centralizar minhas principais criações e praticar o que aprendi com os estudos.
 
-HTML
-
 
 No momento apenas e nevegação mobile foi feito, estou desenvolvendo as outras midia queries.
 
@@ -21,6 +19,10 @@ No momento apenas e nevegação mobile foi feito, estou desenvolvendo as outras 
 <h4 align="center"> 
 	🚧  Portfólio 🚀 Em construção...  🚧
 </h4>
+
+
+<h2>Acesse a pagina pelo link abaixo</h2>
+https://raiansatyro.github.io/Portifolio/
 
 
 <h2>Link do design  inspirado no figma</h2>
